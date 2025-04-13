@@ -1,0 +1,4 @@
+/* Checkmark List */
+ul.is-style-checkmark-list {
+	list-style-type: "\2713";
+}

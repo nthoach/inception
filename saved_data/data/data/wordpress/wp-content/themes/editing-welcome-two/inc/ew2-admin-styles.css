@@ -1,0 +1,138 @@
+/* Admin Notice */
+
+.admin-notice-heading {
+    padding-top: 1rem;
+}
+
+.admin-notice-link-row {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.ew2-button {
+    padding: 0.5rem 1.3rem;
+    border: 0.2rem outset #000;
+    border-radius: 5px;
+    background: #0a2239;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.explore-link {
+    margin-right: 1rem;
+}
+
+.explore-link:hover {
+    background: #e0e6cb;
+    color: #000;
+    text-decoration: underline;
+}
+
+.dismiss-link:hover {
+    background: #e8b3ff;
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* Explore the Theme */
+
+.page-container {
+   background: #e0e6cb;
+}
+
+.page-inner {
+    padding: 0rem 0 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ew-two-h1 {
+    font-size: 2rem;
+    padding: 3rem 2rem 1rem 2rem;
+}
+
+.ew-two-section {
+    padding-bottom: 2rem;
+}
+
+.ew-two-h2 {
+    font-size: 1.6rem;
+}
+
+.ew-two-h3 {
+    font-size: 1.3rem;
+}
+
+.ew-two-info-box {
+    padding: 2rem;
+    margin: 2rem 2rem 2rem 0;
+    background: #fff;
+    box-shadow: 0px 2px 6px 4px #00000030;
+}
+
+.pro {
+    color: #15336a;
+    font-style: oblique;
+}
+
+.ew-two-p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 36rem;
+}
+
+.ew-two-ul {
+    font-size: 1.2rem;
+    list-style-type: square;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.ew-two-ul-txt {
+    font-size: 1.2rem;
+    list-style-type: square;
+    padding: 0rem 0 0rem 1rem;    
+}
+
+.ew-two-ul li, .ew-two-ul-txt li {
+    padding: 0.3rem 0;
+    max-width: 36rem;
+    line-height: 1.6;
+}
+
+.ew-two-pro-box {
+    
+}
+
+.ew-two-img-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ew-two-img {
+    width: 18rem;
+    margin: 1rem;
+    box-shadow: 0px 2px 6px 4px #00000030;
+}
+
+.theme-link {
+    display: block;
+    padding: 0.6rem 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    background: #8ae1fc;
+    color: #000;
+    border: 0.2rem solid #8ae1fc;
+    text-decoration: none;
+}
+
+.theme-link:hover {
+    color: #000;
+    background: radial-gradient(#fff 0%, #fff 50%, #b4ecfd 100%);
+    text-decoration: underline;
+    cursor: pointer;
+}

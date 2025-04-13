@@ -1,0 +1,195 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Rethink Sans\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/rethink-sans/rethink-sans-800-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Rethink Sans\", sans-serif",
+					"name": "Rethink Sans",
+					"slug": "rethink-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Instrument Serif\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/instrument-serif/instrument-serif-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Instrument Serif\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/instrument-serif/instrument-serif-400-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Instrument Serif\", serif",
+					"name": "Instrument Serif",
+					"slug": "instrument-serif"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--black)",
+			"text": "var(--wp--preset--color--white)"
+		},
+		"css": "\n.wp-block-navigation a {\ncolor:black;\n}\n.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {\n    background-color: #fff;\n    color: black;\n     border:none!important;\n    border-radius: 60px;\n}\n\n.wp-block-navigation .wp-block-navigation-item {\n\n  border: 1px solid #94a7c4; \n  padding: 5px 22px;\n  border-radius: 30px; \n  \n}\n\n.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {  \nbackground-color: #fff;\n    color: black;\n    border-radius: 15px;\npadding-top:10px;\npadding-bottom:10px;\npadding-left:10px;\npadding-right:10px;\n}\n.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {\n    background-color: #transparent!important;\n    border: 1px solid #ddd;\n    padding: 8px 0;\n   \n}\n/* Estilo base para o container do submenu */\n.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {\n    background-color: #fff;\n    border: 1px solid #ddd;\n    padding: 8px 0;\n   \n}\n\n/* Ajustes para o menu responsivo */\n.wp-block_navigation_responsive-container.is-menu-open .wp-block-navigation_responsive-container-content .wp_block-navigation_container {\n    background-color: transparent !important;\n}\n\n.wp-block_navigation_responsive-container.is-menu-open .wp-block-navigation_responsive-container-content .wp_block-navigation_container a {\n    color: #000 !important;\n}\n\n/* Ajustes para dispositivos móveis */\n@media screen and (max-width: 768px) {\n    .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {\n        position: relative !important;\n      \n        left: 0 !important;\n        top: 0 !important;\n        box-shadow: none;\n        border: none;\n        background-color: transparent;\n        margin-left: 1rem;\n    }\n\n    .wp-block-navigation__submenu-container .wp-block-navigation-item {\n        padding: 8px 16px;\n        \n    }\n\n    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container {\n        padding-top: 8px;\n        padding-bottom: 8px;\n        display: block;\n        background-color: transparent;\n    }\n}\n/* Ajustes para dispositivos móveis */\n@media screen and (max-width: 768px) {\n    .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {\n        position: relative !important;\n        width: 100% !important;\n        left: 0 !important;\n        top: 0 !important;\n        box-shadow: none;\n        border: none;\n        background-color: #f5f5f5;\n        margin-left: 1rem;\n    }\n\n    .wp-block-navigation__submenu-container .wp-block-navigation-item {\n        padding: 8px 16px;\n        \n    }\n\n    .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container {\n        padding-top: 8px;\n        padding-bottom: 8px;\n        display: block;\n    }\n}\n.wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {\nborder: none;\n}\n@media (max-width: 768px) {\n.buttons-principal{\npadding-bottom: 30px!important;\nopacity: 0;\nanimation: slideInUp 1s ease-out forwards;\n}\n}\n@media (max-width: 768px) {\n.primary-images-front{\ngap: 20px;\n    justify-content: center;\n}\n}\n@media (max-width: 768px) {\n.image-front-about-smart{\nwidth:310px!important;\n}\n}\n@media (max-width: 768px) {\n.button-creative-studies{\npadding-top:20px;\n}\n}\n@media (max-width: 768px) {\n.p-industry-right{\npadding-bottom:15px;\n\n}\n}\n@media (max-width: 768px) {\n.footer-grid{\nflex-direction: column!important;\n    gap: 30px!important;\n        justify-content: space-between!important;\n    align-items: flex-start!important;\n}\n}\n@media (max-width: 768px) {\n.logo-copyright-row{\n    flex-direction: column!important;\nalign-items: center !important;\n    justify-content: center !important;\n    padding-top: 20px!important;\n    padding-left: 20px!important;\n}\n}\n@media (min-width: 769px) and (max-width: 1024px) {\n  .buttons-principal {\n    padding-bottom: 40px !important;\n    opacity: 0;\n    animation: slideInUp 1s ease-out forwards;\n  }\n\n  .primary-images-front {\n    gap: 25px;\n    justify-content: center;\n  }\n\n  .image-front-about-smart {\n    width: 350px !important;\n  }\n\n  .button-creative-studies {\n    padding-top: 25px;\n  }\n\n  .p-industry-right {\n    padding-bottom: 20px;\n  }\n\n  .footer-grid {\n    flex-direction: column !important;\n    gap: 40px !important;\n    justify-content: space-between !important;\n    align-items: flex-start !important;\n  }\n\n  .logo-copyright-row {\n    flex-direction: column !important;\n    align-items: center !important;\n    justify-content: center !important;\n    padding-top: 25px !important;\n    padding-left: 25px !important;\n  }\n}\n\n\n@media (max-width: 768px) {\n.grid-core{\ngrid-template-columns: repeat(1, minmax(0, 1fr))!important;\n    gap: 20px!important;\n}\n}\n@media (max-width: 768px) {\n.makers-row{\n    flex-direction: column !important;\n    gap: 25px !important;\n    justify-content: center !important;\n\n}\n}\n@media (min-width: 769px) and (max-width: 1024px) {\n  .grid-core {\n    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;\n    gap: 25px !important;\n  }\n\n  .makers-row {\n    flex-direction: row !important;\n    gap: 30px !important;\n    justify-content: center !important;\n  }\n}\n@media (max-width: 768px) {\n.title-faq{\npadding-left: 50px;\n}\n}\n@media (min-width: 769px) and (max-width: 1024px) {\n  .title-faq {\n    padding-left: 60px;\n  }\n}\n@media (max-width: 768px) {\n.blog-content-individual{\npadding: 0!important;\nmax-width:100%!important;\np{font-size: 12px;}\nh2{font-size: 22px;}\nimg{max-width:300px;}\n\n}\n}\n@media only screen and (max-width: 769px){\n    .single-post-wrapper{\n        padding: 5%;\n        h2{\n            font-size: 22px;\n        }\n        p{\n            font-size: 14px;\n        }\n    }\n}\n.single-post-wrapper{\n    img {\n        max-width: 100%;\n        max-height: 100%;\n    }\n}\n.post-content-wrapper{\n\n    display: flex!important;\n    flex-direction: column!important;\n    gap: 10px!important;\n}\n.text-gradient{\n\n\n    background-image: linear-gradient(0deg,#000, rgb(204 204 204 / 30%));\n    background-size: 100%;\n    background-repeat: repeat;\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n    -moz-background-clip: text;\n}\n@media (max-width: 768px) {\n.buttons-principal{\npadding-bottom: 30px;\nopacity: 0;\nanimation: slideInUp 1s ease-out forwards;\n}\n}\n@media (max-width: 768px) {\n.primary-images-front{\ngap: 20px;\n    justify-content: center;\nflex-direction:column!important;\n}\n}\n@media (min-width: 769px) and (max-width: 1024px) {\n.primary-images-front{\ngap: 20px;\n    justify-content: center;\nflex-direction:column!important;\n}\n}\n.\n.image1{\nz-index: 1;\n\n}\n\n.image2{\nz-index: 2; \n}\n\n.image3{\nz-index: 3;\n}\n\n.top-navigation-bar{\nheight: 100px;\nz-index: 99;\nposition: absolute;\nwidth:100%;\n}\n.footer-wrapper{\nposition: relative;\nborder: 1px solid;\n}\n        .form-row {\n            display: flex;\n            gap: 40px;\n            margin-bottom: 20px;\n        }\n        .form-group {\n            flex: 1;\n        }\n        label {\n            display: block;\n            margin-bottom: 8px;\n            color: #fff;\n            font-size: 16px;\n        }\n        input, textarea {\n            width: 100%;\n            padding: 12px;\n            background-color: transparent;\n            border: 1px solid #333;\n            border-radius: 10px;\n            color: #fff;\n            font-size: 14px;\n            outline: none;\n            transition: border-color 0.3s;\n        }\n        input:focus, textarea:focus {\n            border-color: #fff;\n        }\n        button {\n          \n            padding: 15px;\n            background-color: #fff;\n            border: none;\n            border-radius: 10px;\n            color: #000;\n            font-size: 16px;\n            font-weight: bold;\n            cursor: pointer;\n            transition: background-color 0.3s;\n            margin-top: 20px;\n        }\n        button:hover {\n            background-color: #e6e6e6;\n        }\n        @media (max-width: 600px) {\n            .form-row {\n                flex-direction: column;\n                gap: 10px;\n            }\n        }\n\n.wc-block-mini-cart__button{\nwidth:50px;\nmargin: 0;\n}\n\n@media only screen and (max-width: 769px){\n   .p-principal { font-size: 40px!important; line-height: 1.2;}\n\n}\n@media (max-width: 768px) { /* Para tablets e celulares */\n    .button-principal {\n        padding: 12px 20px; /* Aumenta área de clique */\n        font-size: 14px; /* Texto legível */\n    }\n}\n\n@media (max-width: 480px) { /* Para celulares */\n    .button-principal {\n        padding: 10px 16px; /* Menor espaço para telas pequenas */\n        font-size: 12px;\n    }\n}\n\n\n@media only screen and (max-width: 769px){\n    h1 { font-size: 45px!important; line-height: 1.2; }  \n    h2 { font-size: 28px!important;; line-height: 1.3; }\n    h3 { font-size: 24px!important;; line-height: 1.4; }\n    h4 { font-size: 20px!important;; line-height: 1.5; }\n    h5 { font-size: 18px!important;; line-height: 1.5; }\n    h6 { font-size: 16px!important;; line-height: 1.6; }\n\n}\n@media only screen and (max-width: 769px){\n    .menu-cta-wrapper{\n        display: none!important;\n    }\n}\n@media only screen and (max-width: 769px){\n.about-growth2{\n            flex-direction: column !important;\n}\n}\n\n@media (max-width: 768px) {\n  img.wp-image-138 {\n    max-width: 312px !important;\n    width: 100% !important; \n}\n}\n@media (max-width: 768px) {\n  .text-gradient {\n    font-size: 2rem !important;\n}\n}\n\n@media (max-width: 768px) {\n.wp-block-navigation__responsive-container {\nbackground-color:white!important;\ncolor: black!important;\n\n}\n}\n@media (max-width: 768px) {\n.wp-block-navigation__responsive-container{\n\n    min-height: 100vh!important;\n    z-index: 999!important;\n   \na{  color: black!important;\nborder:none!important;}\nli{border:none!important;}\n}\n}",
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--rethink-sans)",
+					"fontStyle": "normal",
+					"fontWeight": "700"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--rethink-sans)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--rethink-sans)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--rethink-sans)"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "0px"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--rethink-sans)",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"lineHeight": "1.3",
+			"textTransform": "none"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}

@@ -1,0 +1,550 @@
+/* HOME SECTION  */
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 80%;
+ 
+  justify-content: space-between;
+  padding: 10px 0;
+  
+}
+.marquee figure img{
+  min-width: 11rem;
+  height: 47px;
+  vertical-align: middle;
+  width: 100%;
+  
+  object-fit: none;
+  display: inline-block;
+}
+.marquee-content {
+  display: flex;
+  height: 100px;
+  
+  gap: 40px;
+  width: max-content;
+  animation: marquee 10s linear infinite;
+  
+ 
+}
+.trusted-heading-marquee{
+ 
+  opacity: 0;
+  animation: slideInUp 1s ease-out forwards;
+
+}
+
+
+.creative-studio-column{
+
+  opacity: 0;
+  animation: slideInUp 1s ease-out forwards;
+}
+.creativeshowcase-columns{
+  
+opacity: 0;
+animation: slideInUp 1s ease-out forwards;
+}
+h1 {
+  opacity: 0; /* Começa invisível */
+  animation: slideInLeft 1s ease-out forwards;
+}
+.content{
+  font-size: 60px;
+  color: #ffffff;
+
+
+}
+
+.p-principal {
+  opacity: 0; /* Começa invisível */
+  animation: slideInLeft 1s ease-out forwards;
+}
+.effect-image{
+
+opacity: 0;
+animation: slideInUp 1s ease-out forwards;
+}
+
+.working-methods-effect{
+opacity: 0;
+animation: slideInUp 1s ease-out forwards;
+}
+.experience-columnh2{
+opacity: 0; /* Começa invisível */
+animation: slideInLeft 1s ease-out forwards;
+}
+.experience-columnp{
+opacity: 0; /* Começa invisível */
+animation: slideInRightToLeft 1s ease-out forwards;
+}
+.experience-column-image{
+opacity: 0; /* Começa invisível */
+animation: slideInRightToLeft 1s ease-out forwards;
+}
+.experience-colum-cards{
+opacity: 0;
+animation: slideInUp 1s ease-out forwards;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.value {
+  display: flex;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.digitA, .digitB, .digitC, .digitD {
+  display: inline-block;
+  width: 50px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+  transform-origin: center;
+}
+
+.plus {
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 5px;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-80%);
+  }
+}
+
+@keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-150px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+/* ---------------------------- */
+
+/* //SECTION ABOUT// */
+.hero-section-effect,
+.creative-studio-effect {
+
+  opacity: 0;
+  animation: slideInUp 1s ease-out forwards;
+}
+.creative-button-effect{
+  opacity: 0; /* Começa invisível */
+  animation: slideInLeft 1s ease-out forwards;
+}
+.title-effect-identity{
+  opacity: 0; /* Começa invisível */
+  animation: slideInLeft 1s ease-out forwards;
+}
+.button-effect-identity{
+  opacity: 0;
+  animation: slideInUp 1s ease-out forwards;
+}
+.identity-cards-wrapper{
+  opacity: 0;
+  animation: slideInUp 1s ease-out forwards;
+}
+/* Estilos iniciais para todas as skills */
+.skill-item,
+.skill-item2,
+.skill-item3,
+.skill-item4 {
+  position: relative;
+  padding: 10px;
+  background-color: transparent; /* Fundo transparente */
+  color: #000; /* Cor do texto padrão */
+  border-bottom: 2px solid transparent; /* Borda invisível inicial */
+  transition: color 0.3s ease; /* Transição para mudança de cor */
+}
+
+/* Efeito ao passar o cursor */
+.skill-item:hover,
+.skill-item2:hover,
+.skill-item3:hover,
+.skill-item4:hover {
+  cursor: pointer;
+  color: #fff; /* Texto fica branco ao passar o mouse */
+}
+
+/* Animação da borda de carregamento */
+.skill-item::after,
+.skill-item2::after,
+.skill-item3::after,
+.skill-item4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px; /* Altura da barra */
+  background-color: #fff; /* A borda/barra será branca */
+  transition: width 0.5s ease; /* Animação suave */
+}
+
+/* Porcentagem de preenchimento ao passar o mouse */
+.skill-item:hover::after {
+  width: 90%;
+}
+.skill-item2:hover::after {
+  width: 95%;
+}
+.skill-item3:hover::after {
+  width: 80%;
+}
+.skill-item4:hover::after {
+  width: 85%;
+}
+
+/* ------------------------------------------ */
+
+
+
+/* SECTION CONTACT/FAQ   */
+.faq-container {
+
+    width: 100%;
+    max-width: 100%; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.faq-question {
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    background-color: transparent;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 100%;
+}
+
+.faq-question summary {
+    /* color: #fff;  */
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+
+.faq-question summary::after {
+    content: "❯"; 
+    transform: rotate(90deg);
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+.faq-question[open] summary::after {
+
+  content: "❯"; 
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+    color: #ccc; 
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 20px 24px;
+    background-color: var(--wp--preset--color--background-terciary);
+    border-top: 1px solid  var(--wp--preset--color--background-terciary);
+    margin-top: 0;
+    border-radius: 0 0 10px 10px; 
+}
+
+.faq-question:hover {
+    background-color:  var(--wp--preset--color--background-terciary); 
+}
+
+.faq-question[open] {
+    background-color: #1d1d1d;
+}
+
+/* -------------------- */
+
+/* SECTION SERVICES------ */
+.services-container {
+  display: flex;
+  gap: 2rem;
+  background-color: #000;
+  padding: 2rem;
+  min-height: 500px;
+  max-width: 1000px; /* Controla a largura máxima de toda a seção */
+  margin: 0 auto; /* Centraliza a seção */
+  width: 100%; /* Faz a seção ocupar 90% da largura disponível */
+}
+.services-image-column {
+  flex: 1;
+  min-width: 500px; /* Largura mínima da coluna da imagem */
+}
+.service-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+  min-width: 500px; /* Largura mínima da imagem */
+}
+.services-list-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 600px;
+}
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.service-text {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.arrow {
+  color: #fff;
+  font-size: 2.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+/* Tablet (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .services-container {
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 1.5rem;
+      min-height: auto;
+  }
+
+  .services-image-column,
+  .services-list-column {
+      min-width: 100%;
+  }
+
+  .service-image {
+      min-width: 100%;
+      height: 400px;
+  }
+
+  .service-text {
+      font-size: 2rem;
+  }
+
+  .arrow {
+      font-size: 2rem;
+  }
+
+  .service-item {
+      padding: 1.5rem 0;
+  }
+}
+/* Smartphone (até 767px) */
+@media screen and (max-width: 767px) {
+  .services-container {
+      width: 100%;
+      padding: 1rem;
+      gap: 1rem;
+  }
+
+  .service-image {
+      height: 300px;
+  }
+
+  .service-text {
+      font-size: 1.5rem;
+  }
+
+  .arrow {
+      font-size: 1.5rem;
+  }
+
+  .service-item {
+      padding: 1rem 0;
+  }
+
+  .services-list-column {
+      gap: 1rem;
+  }
+}
+/* Smartphones pequenos (até 375px) */
+@media screen and (max-width: 375px) {
+  .service-image {
+      height: 250px;
+  }
+
+  .service-text {
+      font-size: 1.25rem;
+  }
+
+  .arrow {
+      font-size: 1.25rem;
+  }
+
+  .service-item {
+      padding: 0.8rem 0;
+  }
+}
+.service-item:hover {
+  opacity: 0.8;
+}
+
+.service-item:hover .arrow {
+  opacity: 1;
+  transform: translateX(10px);
+}
+/* ----------------------------- */
+
+
+
+/* EFFECTS----------- */
+.scrollup-hidden-item{
+  opacity: 0;
+  transform: translateY(-150px);
+  transition: all 1s;
+}
+
+.scrollup-show-item{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.scrollright-hidden-item {
+  opacity: 0;
+  transform: translateX(-150px); 
+  transition: all 1s ease-out;
+}
+
+.scrollright-show-item {
+  opacity: 1;
+  transform: translateX(0px);
+}
+.scrollleft-hidden-item {
+  opacity: 0;
+  transform: translateX(-150px); 
+  transition: all 1s ease-out;
+}
+
+.scrollleft-show-item {
+  opacity: 1;
+  transform: translateX(0px); 
+}
+
+.buttons-principal{
+
+opacity: 0;
+animation: slideInUp 1s ease-out forwards;
+}
+ 
+.img-principal {
+opacity: 0; /* Começa invisível */
+animation: slideInRightToLeft 1s ease-out forwards;
+}
+
+@keyframes slide-up-scroll {
+  from {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(150px); /* Começa mais abaixo */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(150px); /* Começa mais à direita */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* ----------------------------- */
+
+/* FOOTER------------------ */
+.footer-content{
+  opacity: 0;
+  animation: slideInUp 1s ease-out forwards;
+}
+.footer-button{
+  opacity: 0;
+  animation: slideInRightToLeft 1s ease-out forwards;
+}
+.joao {
+
+  height: 1px;
+  border: none;
+}
+
+.li-footer li{
+  list-style-type: square;
+}
+
+.li-footer li::before{
+  content: '';
+  height: 20px!important;
+  width: 20px!important;
+
+}
+.li-footer li:hover{
+  cursor: pointer;
+  transform: translateY(5px);
+}
+/* --------------------------- */
