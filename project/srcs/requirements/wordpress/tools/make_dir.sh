@@ -20,9 +20,9 @@ if [ ! -d "~/project/srcs/.env" ]; then
 fi
 
 if [ ! -d "~/project/srcs/requirements/nginx/tools/honguyen.42.fr.crt" ]; then
-       sudo cp -f ~/saved_data/tools/honguyen.42.fr.crt ~/project/srcs/requirements/nginx/tools
+       sudo cp -f ~/saved_data/tools/honguyen.42.fr.crt ~/project/srcs/requirements/nginx/tools/
 fi
 
 if [ ! -d "~/project/srcs/requirements/nginx/tools/honguyen.42.fr.key" ]; then
-       sudo cp -f ~/saved_data/tools/honguyen.42.fr.key ~/project/srcs/requirements/nginx/tools
+       sudo cp -f ~/saved_data/tools/honguyen.42.fr.key ~/project/srcs/requirements/nginx/tools/
 fi
